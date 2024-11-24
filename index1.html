@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш сайт</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .black-box {
+            background-color: black;
+            height: 1200px;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gray-header {
+           ;
+            width: 1000px;
+            height: 60px;
+            display: flex;
+        }
+
+        .blue-box {
+           ;
+           
+        }
+
+        .blue-box:nth-child(1) {
+            width: 250px;
+            height: 60px;
+        }
+
+        .blue-box:nth-child(2) {
+            width: 350px;
+            margin-left: 125px;
+            height: 40px;
+            padding-top: 20px;
+        }
+
+        .blue-box:nth-child(3) {
+            width: 250px;
+            margin-left: 125px;
+            display: flex;
+            height: 60px;
+        }
+
+        .gray-content {
+       ;
+            width: 800px;
+            height: 750px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .spacer {
+            width: 800px;
+            height: 40px;
+        }
+
+        .blue-row {
+           ;
+            width: 800px;
+            height: 160px;
+            display: flex;
+        }
+
+        .red-box {
+           ;
+            width: 220px;
+            height: 160px;
+        }
+
+        .red-box + .red-box {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="black-box">
+        <div class="gray-header">
+            <div class="blue-box" style=";"> 
+            <img src="logo.svg" style="width:100px;height:40px;margin-top:5px;margin-left: 115px;">   
+            </div>
+            <div class="blue-box">
+            <a href="" style="font-size: 12px ;text-decoration: none;margin-left:15px;color: white;">Мое кино </a>
+            <a href="" style="font-size: 12px ;text-decoration: none;margin-left:15px;color: white;">Магазин</a>
+            <a href="" style="font-size: 12px ;text-decoration: none;margin-left:15px;color: white;">Буду смотреть</a>
+            <a href="" style="font-size: 12px ;text-decoration: none;margin-left:15px;color: white;">Покупки</a>
+            </div>
+            <div class="blue-box">
+            <div style=";width:160px; height:40px;padding-top:20px;">
+                <a href="" style="font-size:10;;color: gray;text-decoration: none;">Устоновить на TV</a>
+            </div>    
+            <div style=";width:50px;height:45px;margin-left: auto;margin-top:7px;">
+                <img src="profile.png" style="width:50px;height:45px">
+            </div>
+            </div>
+        </div>
+        <div style="background-color: lightslategray; width: 1000px;height:250px;background-image:url(bg.png);background-size:100% 100%;margin-top: -20px;">
+            <div style="; width: 450px;height:140px;margin-left:auto;margin-right: auto;">
+                <h2 style="text-align: center;color: white;top: 70px;position:relative;">Миллиарды</h2>
+                    <p style="font-size:10px;margin-top:-5px;text-align: center;color: white;top: 60px;position:relative;">Миллиардер против прокурора - большие люди , большие деньги , большие проблемы. Для фанатов "Карточного дома" </p>
+            </div>
+        </div>
+        <div class="gray-content">
+            <div class="spacer">
+                <p style="color: white;font-size: 13px;text-align: center;">Новинки</p>
+            </div>
+            <div class="blue-row">
+                <div class="red-box">
+                    <img src="film1.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-100px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film2.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film3.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film4.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+            </div>
+            <div class="spacer">
+             <p style="color:white;font-size:13px ;text-align: center;">Популярные</p>   
+            </div>
+            <div class="blue-row">
+                <div class="red-box">
+                    <img src="film1.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film2.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film3.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film4.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+            </div>
+            <div class="spacer">
+             <p style="color:white;font-size: 13px;text-align: center;">Выбираем сегодня</p>   
+            </div>
+            <div class="blue-row">
+                <div class="red-box">
+                    <img src="film1.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film2.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film3.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film4.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+            </div>
+            <div class="spacer">
+            <p style="color:white;font-size: 13px;text-align: center;">В тренде: приключения</p>    
+            </div>
+            <div class="blue-row">
+                <div class="red-box">
+                    <img src="film1.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film2.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film3.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+                <div class="red-box">
+                    <img src="film4.png" style="width: 140px;height: 120px;margin-left:24px">
+                    <button style="margin-left:60px ;font-size:10px ;margin-top:-20px;background-color: darkorange;border:none;">Смотреть</button>
+                    <p style="text-align:center;margin-top:-2px;font-size:13px;color: white;">от 599 Р</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
